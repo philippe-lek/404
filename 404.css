@@ -1,0 +1,75 @@
+body {  
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: burlywood;
+    font-size: 2rem;
+}
+p {
+    font-family: Verdana, Tahoma, sans-serif;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(236, 156, 34);
+}
+
+    /*partie haute*/
+.erreur404 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+} 
+
+    /*partie basse*/
+.bottom {
+    display: flex;
+    justify-content: center;
+
+}
+
+.dino {
+    margin-right: 0;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.rechercher{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 15px;
+}
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+	background-color:#ffc477;
+	border-radius:6px;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #cc9f52;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+	background-color:#fb9e25;
+}
+
+.chercher {
+    height: 1.5rem;
+    width: 50%;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
